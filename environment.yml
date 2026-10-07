@@ -1,0 +1,12 @@
+name: rag_env
+channels:
+  - conda-forge
+dependencies:
+  - python-dotenv
+  - langchain
+  - langchain-openai
+  - langgraph
+  - pydantic
+  - chromadb
+  - langchain-community
+  - python=3.12
